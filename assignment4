@@ -1,0 +1,94 @@
+Question 1: Write a C program to print "Hello Students" on the screen.
+
+-------------------------
+-------------------------
+#include <stdio.h>
+
+int main() {
+    printf("Hello Students\n");
+    return 0;
+}
+Question 2: Write a C Program to print "Hello" on the first line and "Students" on the second line.
+
+-------------------------
+-------------------------
+#include <stdio.h>
+
+int main() {
+    printf("Hello\nStudents\n");
+    return 0;
+}
+Question 3: Write a C program to print "MySirG" on the screen.
+
+-------------------------
+-------------------------
+#include <stdio.h>
+
+int main() {
+    printf("MySirG\n");
+    return 0;
+}
+Question 4: Write a C program to print "Teacher’s Day" on the screen.
+
+-------------------------
+-------------------------
+#include <stdio.h>
+
+int main() {
+    printf("Teacher’s Day\n");
+    return 0;
+}
+Question 5: Write a C program to print \n on the screen.
+
+-------------------------
+-------------------------
+#include <stdio.h>
+
+int main() {
+    printf("\\n\n");
+    return 0;
+}
+Question 6: Write a C program to print %d on the screen.
+
+-------------------------
+-------------------------
+#include <stdio.h>
+
+int main() {
+    printf("%%d\n");
+    return 0;
+}
+Question 7: Write a C program containing declaration of three variables (of type int, char and float), also assign some values to them and print values of all three variables using single printf().
+
+-------------------------
+-------------------------
+#include <stdio.h>
+
+int main() {
+    int num = 10;
+    char letter = 'A';
+    float floating = 3.14;
+
+    printf("num: %d, letter: %c, floating: %f\n", num, letter, floating);
+    return 0;
+}
+Question 8: Explore following format specifiers on the internet - %i, %g, %lf
+
+%i: Used for printing integers.
+%g: Used for printing floating-point numbers in either %f or %e format, depending on the value.
+%lf: Used for printing double-precision floating-point numbers.
+Question 9: Write a C program to print a character stored in a char variable, also print its ASCII code.
+
+-------------------------
+-------------------------
+#include <stdio.h>
+
+int main() {
+    char ch = 'A';
+    printf("Character: %c, ASCII code: %d\n", ch, ch);
+    return 0;
+}
+Question 10: How to convert a Decimal number into a Binary number and vice versa.
+
+Decimal to Binary Conversion: Divide the decimal number by 2 repeatedly and keep track of the remainders. The remainders, read in reverse order, give you the binary equivalent.
+Binary to Decimal Conversion: Multiply each digit of the binary number by 2 raised to the power of its position and sum the results.
