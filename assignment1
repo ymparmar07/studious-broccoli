@@ -1,0 +1,60 @@
+1. Why do computers understand only binary language?
+ans:-
+Computers understand and process information using binary language because their fundamental components, such as transistors, operate in a binary state – they can either be in an "on" or "off" position. This binary state is represented as 1 and 0, which form the basis of the binary number system.
+
+2. What is the full form of IDE?
+Ans:-integrated development environment
+
+3. What is the difference between a text editor and a code editor?
+Ans;-
+Text Editor: A text editor is a basic tool for editing plain text files. It doesn't have specialized features for programming languages and is often used for general-purpose text manipulation. Text editors are simple and lightweight, making them suitable for tasks like taking notes, writing articles, or editing configuration files.
+Features of a text editor:
+Basic text formatting (bold, italic, etc.).
+No syntax highlighting for programming languages.
+Limited or no code-related functionalities.
+Generally lacks integration with development tools.
+Focuses on displaying and editing text without additional complexities.
+Examples of text editors: Notepad (Windows), TextEdit (macOS), Nano, Vim, etc.
+Code Editor: A code editor, also known as an integrated development environment (IDE) or a code IDE, is a more specialized tool designed for software development. It provides features and functionalities specifically tailored to programmers and developers.Coding
+Compiling
+Linking
+Features of a code editor:
+Syntax highlighting: Highlights different parts of the code with distinct colors to improve code readability and identification of errors.
+Code completion: Offers suggestions as you type, making coding faster and reducing typos.
+Error checking: Detects and highlights syntax errors and potential issues in the code.
+Debugging tools: Allows setting breakpoints, stepping through code, and examining variables during runtime.
+Integration with version control systems: Facilitates collaborative development by connecting to tools like Git.
+Extension support: Can be extended with plugins and extensions to add functionality for various languages and frameworks.
+Project management: Helps organize files, folders, and dependencies within a project.
+Compilation and execution: Some code editors support compiling and running code directly within the editor.
+Examples of code editors: Visual Studio Code, Sublime Text, Atom, IntelliJ IDEA, PyCharm, Eclipse, etc.
+In summary, while both text editors and code editors deal with text-based files, code editors are specialized tools with features aimed at facilitating software development tasks. They provide a more productive environment for coding, debugging, and managing projects, making them essential tools for programmers and developers.
+
+
+4. What are the steps to develop software using the C language?
+Ans:-
+
+
+Coding
+Compiling
+Linking
+
+5. Explore by your own
+
+a. What is the latest version of C Language?
+Ans:-2021
+
+
+b. Who developed C Language?
+Ans:- dennis ritchie 
+
+
+c. What is the difference between System and Application Software?
+ans:-System software serves as the backbone of a computer system, managing hardware and providing a platform for applications. It includes operating systems, drivers, and utilities, and runs in the background. Application software, on the other hand, directly serves user needs, offering tools like word processors, browsers, and games. Users interact with application software to accomplish specific tasks, distinct from the underlying system operations.
+
+
+
+d. How to convert a number from a decimal number system to a binary number
+System?
+
+ans;-Converting decimal to binary using the powers of 2 method involves finding the largest power of 2 that fits into the decimal number, subtracting it, and marking a '1' in that position. Repeat for smaller powers of 2, marking '1' or '0' as you subtract. This builds the binary representation, with '1' indicating presence of that power and '0' for absence.
