@@ -1,0 +1,150 @@
+1. Write a program to print size of an int, a float, a char and a double type variable
+
+#include <stdio.h>
+
+main() {
+	
+	printf(" %d \n %d \n %d \n %d",sizeof(int),sizeof(float),sizeof(char),sizeof(double));
+}
+
+2. Write a program to find last digit of a given number
+
+#include <stdio.h>
+
+main() {
+	
+	int n;
+	printf("enter value of given number:");
+	scanf("%d",&n);
+
+	printf("last number is :%d ",n%10);
+
+}
+
+3. Write a program to find first digit of a given three digit number
+
+#include<stdio.h>
+main(){
+	
+int n;
+	
+printf("\n enter any 3 digit number : ");
+scanf("%d",&n);
+
+printf("first digit of number is:%d",n/100);
+	
+}
+
+4. Write a program to find middle digit of a given three digit number
+
+#include<stdio.h>
+main(){
+	
+int n;
+	
+printf("\n enter any 3 digit number : ");
+scanf("%d",&n);
+
+printf("second digit of number is:%d",(n/10)%10);
+	
+}
+5. Write a program to swap values of two int variables
+
+#include<stdio.h>
+void main(){
+
+	int a=0;
+	int b=1;
+	int c;
+	printf("\n\tvalue before swap:\n\ta= %d\n\tb= %d", a,b);
+	 c=a;
+	 a=b;
+	 b=c;
+	printf("\n\tvalue after swap:\n\ta= %d\n\tb= %d", a,b);
+}
+
+6. Write a program to swap values of two int variables without using third variable
+
+#include<stdio.h>
+void main(){
+	int a=7;
+	int b=9;
+  printf("\n\tvalue of a before swap:%d \n\tvalue of b before swap:%d",a,b);
+	a= a+b;  //    a=7+9=16
+	b= a-b;  //    b= 16-9=7
+	a= a-b;  //    a= 16-7=9
+	printf("\n\tvalue of a after swap:%d \n\tvalue of b after swap:%d",a,b);
+}
+
+7. Write a program to make the last digit of a number stored in a variable as zero.
+(Example - if x=2345 then make it x=2340)
+
+#include<stdio.h>
+main(){
+	
+int n;
+	
+printf("\n enter any 4 digit number : ");
+scanf("%d",&n);
+
+printf("\n New number is:%d",n/10*10);
+	
+}
+
+8. Write a program to input a number from the user and also input a digit. Append a
+digit in the number and print the resulting number. (Example - number=234 and
+digit=9 then the resulting number is 2349)
+
+#include<stdio.h>
+main(){
+	
+int n,m;
+	
+printf("\n enter any 3 digit number : ");
+scanf("%d",&n);
+
+printf("\n enter any 4th digit number : ");
+scanf("%d",&m);
+
+printf("last digit of number is:%d",n*10+m);
+	
+}
+
+9. Assume price of 1 USD is INR 76.23. Write a program to take the amount in INR and
+convert it into USD.
+
+#include<stdio.h>
+main(){
+	
+float n;
+	
+printf("\n enter rs in INR digit number : ");
+scanf("%f",&n);
+
+
+printf("INR to USD is:%.2f",n/76.23);
+	
+}
+10. Write a program to take a three digit number from the user and rotate its digits by one
+position towards the right.
+Write a program to take a three digit number from the user and rotate its digits by one
+
+#include <stdio.h>
+#include <stdio.h>
+main() {
+    int n;
+    printf("Enter a three-digit number: ");
+    scanf("%d", &n);
+
+    int a = n / 100;
+    int b = (n / 10) % 10;
+    int c = n % 10;
+
+    n = c * 100 + a * 10 + b;
+    printf("Number after rotating digits: %d\n", n);
+}
+
+
+
+
+
