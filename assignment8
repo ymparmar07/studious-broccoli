@@ -1,0 +1,45 @@
+1. Write a program to check whether a given number is divisible by 3 and divisible by 2.
+
+#include <stdio.h>
+
+void main() {
+ 
+ int n;
+ 
+ printf("enter number :");
+ scanf("%d",&n);
+	if(n!=0){
+		if (n%2==0 && n%3==0){
+			printf("number is devisible by 2 and 3 ");
+		}else{
+			printf("number is not devisible by 2 and 3 ");
+		}
+	}else{
+		printf("0 is not valid number ");
+	}
+	
+}
+
+2. Write a program to check whether a given number is divisible by 7 or divisible by 3.
+
+
+#include <stdio.h>
+
+void main() {
+ 
+ int n;
+ 
+ printf("enter number :");
+ scanf("%d",&n);
+	if(n!=0){
+		if (n%3==0 || n%7==0){
+			printf("number is devisible by 3 or 7 ");
+		}else{
+			printf("number is not devisible by 3 or 7 ");
+		}
+	}else{
+		printf("0 is not valid number ");
+	}
+}
+
+
