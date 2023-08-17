@@ -1,4 +1,4 @@
-1. Write a program to check whether a given number is divisible by 3 and divisible by 2.
+T1. Write a program to check whether a given number is divisible by 3 and divisible by 2.
 
 #include <stdio.h>
 
@@ -63,6 +63,21 @@ void main() {
 }
 
 4. Write a program to check whether a given year is a leap year or not.
+#include <stdio.h>
 
-
+void main() {
+ 
+ int n;
+ 
+ printf("enter number :");
+ scanf("%d",&n);
+	if(n%4==0){
+	
+			printf("given year is leap year ");
+		}else{
+			printf("given year is not leap year");
+	}
+}
+5. Write a program to find greater among three numbers. If two or three numbers are
+identical and greatest among all then print it only once.
 
