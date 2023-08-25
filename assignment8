@@ -78,6 +78,108 @@ void main() {
 			printf("given year is not leap year");
 	}
 }
+
+
 5. Write a program to find greater among three numbers. If two or three numbers are
 identical and greatest among all then print it only once.
+#include <stdio.h>
 
+void main() {
+ 
+ int a,b,c;
+ 
+ printf("\n enter number :");
+ scanf("%d",&a);
+ 
+ printf("\n enter number :");
+ scanf("%d",&b);
+ 
+ printf("\n enter number :");
+ scanf("%d",&c);
+
+if(a>b){
+	if(a>c){
+		printf("\n%d is greater",a);
+	}else{
+		printf("\n%d is greater",c);
+	}
+}else{
+	if(b>c){
+		printf("\n%d is greater",b);
+	}else{
+		printf("\n%d is greater",c);
+	}
+}
+}
+
+6. Write a program to check whether a given character is an alphabet (uppercase), an
+alphabet (lower case), a digit or a special character.
+#include <stdio.h>
+
+void main() {
+ 
+ char n;
+ 
+ printf("\n enter a character :");
+ scanf("%c",&n);
+ 
+ if(n>='a' && n<='z' ){
+ 	printf("\n given chararcter is alphabet lowercase");
+ }else if(n>='A' && n<='Z'){
+ 	printf("\n given chararcter is alphabet upperrcase");
+ }else if(n>='0' && n<='9'){
+ 	printf("\n given chararcter is digit");
+ }else{
+ 	printf("\n given chararcter is special charachter");
+ }
+ 	
+
+}
+
+7. Write a program which takes the length of the sides of a triangle as an input. Display
+whether the triangle is valid or not.
+
+#include <stdio.h>
+
+void main() {
+ 
+ int a,b,c;
+ 
+ printf("\n enter first side :");
+ scanf("%d",&a);
+ 
+ printf("\n enter second side :");
+ scanf("%d",&b);
+ 
+ printf("\n enter third side :");
+ scanf("%d",&c);
+ 
+ if((a + b <= c) || (a + c <= b) || (b + c <= a)){
+ 	 	printf("triangle is not valid");
+ 	}else{
+ 		printf("triangle is valid");
+	 }
+}
+
+8. Write a program which takes the month number as an input and display number of
+days in that month.
+
+#include <stdio.h>
+
+void main() {
+ 
+ int n;
+ 
+ printf("\n enter month in number :");
+ scanf("%d",&n);
+ 
+ if(n==1 || n==3 || n==5 || n==7 || n==8 || n==10 || n==12 ){
+ 	 	printf("month of day is 31");
+ }else if(n==4 || n==6 || n==9 || n==11 ){
+ 		printf("month of day is 30");
+ }else if(n==2){
+ 		printf("month of day is 28 or 29");
+ }else{
+ 	printf("enter month between 1 to 12");
+ }
+}
